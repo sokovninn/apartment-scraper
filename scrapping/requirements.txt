@@ -1,0 +1,4 @@
+sqlalchemy
+scrapy
+psycopg2
+Flask

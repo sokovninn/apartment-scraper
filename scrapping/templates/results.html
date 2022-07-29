@@ -1,0 +1,23 @@
+<!-- results.html -->
+<html>
+    <head>
+        <title>Apartments for sale</title>
+    </head>
+<body>
+<h1>Apartments for sale</h1>
+
+<div class='div_outer'>
+{%
+for result in results:
+%}
+  <div class='div_inner'>
+  <h2>{{result[0]}}) {{ result[1][0] }}</h2>
+  <img src={{ result[1][1] }}> 
+  </div>
+{%
+endfor
+%}
+</div>
+
+</body>
+</html>
