@@ -9,4 +9,4 @@ COPY show_ads.py show_ads.py
 COPY templates templates
 
 RUN chmod +x start.sh
-CMD ["./start.sh"]
+CMD sleep 5s && ./start.sh
